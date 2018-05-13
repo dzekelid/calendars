@@ -43,7 +43,7 @@ apis:
   tags: Calendars
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/users-id-|-userprincipalname-calendars-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/me-calendargroups-calendar-group-id-calendars-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
