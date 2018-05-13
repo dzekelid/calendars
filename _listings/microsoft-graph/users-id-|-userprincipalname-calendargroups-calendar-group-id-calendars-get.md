@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Microsoft Graph API
-  description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft
-    cloud services through a single endpoint: https://graph.microsoft.com. Microsoft
-    Graph simplifies queries that would otherwise be more complex.'
+  title: Microsoft Graph API List Calendars
+  description: List calendars Get all the user's calendars (/calendars navigation
+    property), get the calendars from the default calendar group or from a specific
+    calendar group.
   version: 1.0.0
 host: graph.microsoft.com
 basePath: /
