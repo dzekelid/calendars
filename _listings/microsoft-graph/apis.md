@@ -34,15 +34,16 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/users-id-|-userprincipalname-calendargroups-calendar-group-id-calendars-get.md
 - name: Microsoft Graph API List Calendars
-  description: List calendars Retrieve a list of calendars belonging to a calendar
-    group.
+  description: List calendars Get all the user's calendars (/calendars navigation
+    property), get the calendars from the default calendar group or from a specific
+    calendar group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Calendars
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/users-id-|-userprincipalname-calendargroups-id-calendars-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/users-id-|-userprincipalname-calendars-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
