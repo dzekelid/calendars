@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-office-365/calendars-calendar-id-events-parameters.md
-- name: Microsoft Office 365 Parameters Calendars Calendar
-  description: Parameters calendars calendar
+- name: Microsoft Office 365 Get Calendars Calendar Events
+  description: You can request all the events across all calendars (or a fi...
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
   humanURL: http://office.com
   baseURL: https://outlook.office365.com//ews/odata/Me
   tags: Calendars
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-office-365/calendars-calendar-id-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-office-365/calendars-calendar-id-events-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-office-365/calendars-calendar-id-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-office-365/calendars-calendar-id-events-get-postman.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
