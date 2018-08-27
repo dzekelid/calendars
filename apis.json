@@ -1,0 +1,90 @@
+{
+	"name": "Streadata.io API Gallery - Calendars",
+	"description": "This is a repository of calendars APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/calendars.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://calendars.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Microsoft Office 365",
+			"x-api-slug": "microsoft-office-365",
+			"description": "Integrate Office 365 REST APIs powered by Microsoft Graph into your own app to connect to files, calendars, mail and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png",
+			"humanURL": "http://office.com",
+			"baseURL": "https://outlook.office365.com//ews/odata/Me",
+			"tags": "Calendars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-office-365/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Calendars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Calendly",
+			"x-api-slug": "calendly",
+			"description": "Say goodbye to phone and email tag for finding the perfect meeting time with Calendly. Its 100% free, super easy to use and youll love our customer service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28421-calendly-com.jpg",
+			"humanURL": "https://calendly.com",
+			"baseURL": "https:///",
+			"tags": "Calendars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/calendly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "https://freebusy.io",
+			"x-api-slug": "httpsfreebusy-io",
+			"description": "FreeBusy matches everyones calendars and quickly finds common free time. Its free and super easy to use. Schedule a meeting with 4 people from 2 companies in 60 seconds!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28422-freebusy-io.jpg",
+			"humanURL": "https://freebusy.io",
+			"baseURL": "https:///",
+			"tags": "Calendars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/httpsfreebusy-io/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Calendars",
+	"include": [
+		{
+			"name": "Microsoft Office 365",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-office-365/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Calendly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/calendly/apis.yaml"
+		},
+		{
+			"name": "https://freebusy.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/httpsfreebusy-io/apis.yaml"
+		}
+	]
+}

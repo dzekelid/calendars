@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Microsoft Office 365
 x-complete: 1
@@ -158,4 +157,3 @@ paths:
       - Calendar
       - ""
       - Events
----

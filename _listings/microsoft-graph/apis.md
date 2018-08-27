@@ -12,11 +12,98 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Calendars
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Microsoft Graph API - List Calendars
+  x-api-slug: mecalendargroupcalendars-get
+  description: List calendars Retrieve a list of calendars belonging to a calendar
+    group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/mecalendargroupcalendars-get-openapi.md
+- name: Microsoft Graph API - List Calendars
+  x-api-slug: usersid--userprincipalnamecalendargroupcalendars-get
+  description: List calendars Retrieve a list of calendars belonging to a calendar
+    group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/usersid--userprincipalnamecalendargroupcalendars-get-openapi.md
+- name: Microsoft Graph API - List Calendars
+  x-api-slug: mecalendargroupsidcalendars-get
+  description: List calendars Retrieve a list of calendars belonging to a calendar
+    group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/mecalendargroupsidcalendars-get-openapi.md
+- name: Microsoft Graph API - List Calendars
+  x-api-slug: usersid--userprincipalnamecalendargroupsidcalendars-get
+  description: List calendars Retrieve a list of calendars belonging to a calendar
+    group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/usersid--userprincipalnamecalendargroupsidcalendars-get-openapi.md
+- name: Microsoft Graph API - List Calendars
+  x-api-slug: usersid--userprincipalnamecalendars-get
+  description: List calendars Get all the user's calendars (/calendars navigation
+    property), get the calendars from the default calendar group or from a specific
+    calendar group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/usersid--userprincipalnamecalendars-get-openapi.md
+- name: Microsoft Graph API - List Calendars
+  x-api-slug: mecalendargroupscalendar-group-idcalendars-get
+  description: List calendars Get all the user's calendars (/calendars navigation
+    property), get the calendars from the default calendar group or from a specific
+    calendar group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/mecalendargroupscalendar-group-idcalendars-get-openapi.md
+- name: Microsoft Graph API - List Calendars
+  x-api-slug: usersid--userprincipalnamecalendargroupscalendar-group-idcalendars-get
+  description: List calendars Get all the user's calendars (/calendars navigation
+    property), get the calendars from the default calendar group or from a specific
+    calendar group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendars/master/_listings/microsoft-graph/usersid--userprincipalnamecalendargroupscalendar-group-idcalendars-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://messente.api.gallery.streamdata.io
